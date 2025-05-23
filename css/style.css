@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: white;
+}
+
+header .top-bar {
+  background-color: #27c5eb;
+  color: white;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+header h1 {
+  font-size: 24px;
+  color: white;
+}
+
+nav a {
+  margin: 0 15px;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  background: url('avatar-placeholder.png') no-repeat center;
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.intro {
+  text-align: center;
+  padding: 40px 20px;
+  position: relative;
+}
+
+.intro h2 {
+  color: #e62b4a;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.intro h3 {
+  font-size: 18px;
+  color: #e62b4a;
+  font-style: italic;
+  margin: 10px 0;
+}
+
+.tags {
+  color: #333;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.green-box {
+  background-color: #00cc66;
+  color: white;
+  padding: 30px;
+  margin: 30px;
+  position: relative;
+}
+
+.green-box h2 {
+  font-size: 30px;
+}
+
+.green-box p:first-of-type {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.pink-box {
+  background-color: #e63b7a;
+  color: white;
+  padding: 30px;
+  margin: 30px;
+}
+
+.pink-box h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.pink-box ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+.highlight {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.cta {
+  text-align: center;
+  padding: 40px 20px;
+  font-size: 20px;
+  color: #00aa88;
+  font-style: italic;
+}
+
+.button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #00c5f5;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 30px;
+}
+
+footer {
+  background-color: #142358;
+  color: white;
+  padding: 30px;
+  text-align: left;
+  position: relative;
+}
+
+.flower {
+  width: 60px;
+  height: 60px;
+  background: url('flower-placeholder.png') no-repeat center;
+  background-size: cover;
+  position: absolute;
+}
+
+.flower-1 { top: 10px; left: 10px; }
+.flower-2 { top: 60px; right: 100px; }
+.flower-3 { top: 10px; right: 20px; }
+.flower-4 { bottom: 10px; right: 20px; }
+
