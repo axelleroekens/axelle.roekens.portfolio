@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+header {
+  background: #00bcd4;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.section {
+  padding: 40px 20px;
+}
+
+.about-me {
+  background-color: #fce4ec;
+  color: #880e4f;
+  padding: 40px 20px;
+}
+
+.about-me h2 {
+  color: #ad1457;
+}
+
+.about-me p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+footer {
+  background-color: #1a237e;
+  color: white;
+  padding: 20px;
+  font-size: 14px;
+}
+
+
